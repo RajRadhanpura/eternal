@@ -1,0 +1,3 @@
+module.exports=[77039,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(11285);a.n(d("[project]/Desktop/eternaln/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},45784,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(11285);a.n(d("[project]/Desktop/eternaln/node_modules/next/dist/client/components/builtin/global-error.js"))},31319,a=>{"use strict";a.i(77039);var b=a.i(45784);a.n(b)}];
+
+//# sourceMappingURL=9f801_next_dist_client_components_builtin_global-error_c0c4b579.js.map

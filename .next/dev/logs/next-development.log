@@ -1,0 +1,28 @@
+[00:00:00.916] Server  LOG     ✓ Ready in 702ms
+[00:00:05.460] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.460] Browser WARN    Image with src "/eternal.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.460] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
+[00:00:12.870] Browser WARN    Image with src "http://localhost:3001/logo-white.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:49.821] Server  LOG     ✓ Compiled in 166ms
+[00:01:15.542] Server  LOG     ✓ Compiled in 118ms
+[00:01:15.739] Browser ERROR   ./Desktop/eternaln/app/page.jsx:260:22
+Parsing ecmascript source code failed
+  258 | /* ---------------- THREE SCENE ---------------- */
+  259 |
+> 260 | function Scene (props: any)  {
+      |                      ^
+  261 |   const [accent, click] = useReducer((state) => ++state % accents.length, 0);
+  262 |   const COUNT = 15;
+  263 |
+
+Expected ',', got ':'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/eternaln/app/page.jsx [Client Component Browser]
+    ./Desktop/eternaln/app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/eternaln/app/page.jsx [Client Component SSR]
+    ./Desktop/eternaln/app/page.jsx [Server Component]
+[00:01:21.451] Server  LOG     ✓ Compiled in 125ms
