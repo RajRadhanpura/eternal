@@ -896,3 +896,107 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:30:39.329] Browser WARN    Image with src "/eternal.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [01:30:39.329] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
 [01:30:49.266] Browser WARN    Image with src "http://localhost:3000/logo-white.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:36:57.774] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:58.185] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:36:58.185] Browser WARN    Image with src "/eternal.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:36:58.185] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
+[01:39:28.576] Server  LOG     ✓ Compiled in 105ms
+[01:39:39.243] Server  LOG     ✓ Compiled in 38ms
+[01:40:52.539] Server  LOG     ✓ Compiled in 68ms
+[01:40:53.178] Browser ERROR   ./Desktop/eternaln/app/page.jsx:387:22
+Ecmascript file had an error
+  385 |
+  386 |   // index changes on click
+> 387 |   const [colorIndex, click] = useReducer(
+      |                      ^^^^^
+  388 |     (state) => Math.floor(Math.random() * COLORS.length),
+  389 |     0
+  390 |   );
+
+the name `click` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/eternaln/app/page.jsx [Client Component Browser]
+    ./Desktop/eternaln/app/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/eternaln/app/page.jsx [Client Component SSR]
+    ./Desktop/eternaln/app/page.jsx [Server Component]
+[01:41:01.182] Browser ERROR   uncaughtError: ReferenceError: accent is not defined
+[01:41:02.176] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[01:41:11.704] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:41:11.727] Server  LOG     ✓ Compiled in 39ms
+[01:41:12.006] Server  ERROR   ⨯ ReferenceError: accent is not defined
+[01:41:12.014] Browser ERROR   uncaughtError: ReferenceError: accent is not defined
+[01:41:12.147] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:12.445] Browser ERROR   uncaughtError: ReferenceError: accent is not defined
+[01:41:14.651] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:41:14.778] Server  LOG     ✓ Compiled in 54ms
+[01:41:15.860] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:16.876] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:41:16.884] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
+[01:41:24.459] Browser ERROR   uncaughtError: ReferenceError: Cannot access 'COLORS' before initialization
+[01:41:24.985] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[01:41:33.423] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:41:33.441] Server  LOG     ✓ Compiled in 39ms
+[01:41:33.988] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:34.510] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:41:34.510] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
+[01:41:59.381] Server  LOG     ✓ Compiled in 29ms
+[01:42:16.670] Server  LOG     ✓ Compiled in 45ms
+[01:42:45.028] Server  LOG     ✓ Compiled in 41ms
+[01:43:04.431] Server  LOG     ✓ Compiled in 37ms
+[01:43:08.715] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:43:09.335] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:43:09.335] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
+[01:45:31.290] Server  LOG     ✓ Compiled in 99ms
+[01:46:16.961] Server  LOG     ✓ Compiled in 32ms
+[01:46:21.989] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:22.405] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:46:22.405] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
+[01:46:50.997] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:51.358] Browser WARN    Image with src "/logo.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:46:51.358] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:46:51.358] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
+[01:47:48.386] Server  LOG     ✓ Compiled in 33ms
+[01:47:55.996] Server  LOG     ✓ Compiled in 33ms
+[01:48:29.145] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:48:29.675] Browser WARN    Image with src "/logo.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:48:29.675] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:48:29.675] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
+[01:48:54.029] Server  LOG     ✓ Compiled in 50ms
+[01:48:54.176] Browser ERROR   uncaughtError: ReferenceError: colorIndex is not defined
+[01:48:54.673] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:48:54.817] Server  LOG     ✓ Compiled in 16ms
+[01:48:55.013] Server  ERROR   ⨯ ReferenceError: colorIndex is not defined
+[01:48:55.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:48:56.179] Browser ERROR   uncaughtError: ReferenceError: colorIndex is not defined
+[01:49:05.087] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:49:05.185] Server  LOG     ✓ Compiled in 33ms
+[01:49:05.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:49:06.180] Browser WARN    Image with src "http://localhost:3000/logo-white.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:49:12.646] Server  LOG     ✓ Compiled in 38ms
+[01:49:13.184] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[01:49:22.956] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:49:22.979] Server  LOG     ✓ Compiled in 97ms
+[01:49:23.091] Browser ERROR   uncaughtError: ReferenceError: accent is not defined
+[01:49:23.255] Server  ERROR   ⨯ ReferenceError: accent is not defined
+[01:49:23.390] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:49:23.695] Browser ERROR   uncaughtError: ReferenceError: accent is not defined
+[01:49:43.219] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:49:43.239] Server  LOG     ✓ Compiled in 116ms
+[01:49:43.751] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:49:44.248] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:49:44.248] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
+[01:50:53.402] Server  LOG     ✓ Compiled in 50ms
+[01:50:57.102] Server  LOG     ✓ Compiled in 19ms
+[01:51:11.413] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:51:11.811] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:51:11.811] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead
+[01:51:53.126] Server  LOG     ✓ Compiled in 25ms
+[01:51:58.035] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:51:58.427] Browser WARN    Image with src "/logo.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:51:58.427] Browser WARN    using deprecated parameters for the initialization function; pass a single object instead

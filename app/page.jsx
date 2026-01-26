@@ -37,13 +37,12 @@ const projects = [
   { title: "Frag Dal 1921", image: "./company1.jpg.webp" },
 ];
 
-
 export default function ScenePage() {
-  const heading1Ref = useRef(null)
-  const heading2Ref = useRef(null)
-  const sectionRef = useRef(null)
-  const svgRef = useRef(null)
-  const pathRef = useRef(null)
+  const heading1Ref = useRef(null);
+  const heading2Ref = useRef(null);
+  const sectionRef = useRef(null);
+  const svgRef = useRef(null);
+  const pathRef = useRef(null);
 
   useEffect(() => {
     const AOS = require("aos");
@@ -66,13 +65,13 @@ export default function ScenePage() {
       const totalDistance = svg.clientHeight - window.innerHeight;
 
       const percentage = Math.min(distance / totalDistance, 1);
-      const targetOffset = pathLength * (1 - percentage)
+      const targetOffset = pathLength * (1 - percentage);
 
       // 🔥 Smooth easing (lower = slower)
-      currentOffset += (targetOffset - currentOffset) * 0.06
+      currentOffset += (targetOffset - currentOffset) * 0.06;
 
       // path.style.strokeDashoffset = `${pathLength * (1 - percentage)}`;
-      path.style.strokeDashoffset = `${currentOffset}`
+      path.style.strokeDashoffset = `${currentOffset}`;
     };
 
     scroll();
@@ -81,59 +80,58 @@ export default function ScenePage() {
     return () => {
       window.removeEventListener("scroll", scroll);
     };
-    
   }, []);
 
   useEffect(() => {
-  let current1 = 0
-  let current2 = 0
-  let target1 = 0
-  let target2 = 0
+    let current1 = 0;
+    let current2 = 0;
+    let target1 = 0;
+    let target2 = 0;
 
-  const animate = () => {
-    // Smooth inertia (lower = smoother / slower)
-    current1 += (target1 - current1) * 0.08
-    current2 += (target2 - current2) * 0.08
+    const animate = () => {
+      // Smooth inertia (lower = smoother / slower)
+      current1 += (target1 - current1) * 0.08;
+      current2 += (target2 - current2) * 0.08;
 
-    if (heading1Ref.current) {
-      heading1Ref.current.style.transform = `translateX(${current1}px)`
-    }
+      if (heading1Ref.current) {
+        heading1Ref.current.style.transform = `translateX(${current1}px)`;
+      }
 
-    if (heading2Ref.current) {
-      heading2Ref.current.style.transform = `translateX(${current2}px)`
-    }
+      if (heading2Ref.current) {
+        heading2Ref.current.style.transform = `translateX(${current2}px)`;
+      }
 
-    requestAnimationFrame(animate)
-  }
+      requestAnimationFrame(animate);
+    };
 
-  const handleScroll = () => {
-    if (!sectionRef.current) return
+    const handleScroll = () => {
+      if (!sectionRef.current) return;
 
-    const rect = sectionRef.current.getBoundingClientRect()
-    const windowHeight = window.innerHeight
+      const rect = sectionRef.current.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
 
-    const progress = 1 - Math.min(Math.max(rect.top / windowHeight, 0), 1)
+      const progress = 1 - Math.min(Math.max(rect.top / windowHeight, 0), 1);
 
-    // Movement strength
-    target1 = progress * 350
-    target2 = progress * 150
-  }
+      // Movement strength
+      target1 = progress * 350;
+      target2 = progress * 150;
+    };
 
-  window.addEventListener("scroll", handleScroll)
-  handleScroll()
-  animate()
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+    animate();
 
-  return () => {
-    window.removeEventListener("scroll", handleScroll)
-  }
-}, [])
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div>
       <Loader />
 
       <Header />
-      
+
       <Animations />
 
       <div className="_3d-container extra">
@@ -143,26 +141,25 @@ export default function ScenePage() {
       <section className="pt-5 pb-10" data-aos="fade-up" data-aos-delay="0">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <div className="text-2xl">
-            <Image src="/eternal.png" alt="Logo" width={30} height={80}></Image>
+            {/* <Image src="/eternal.png" alt="Logo" width={30} height={80}></Image> */}
           </div>
           <div className="text-2xl">
-            <Image src="/eternal.png" alt="Logo" width={30} height={80}></Image>
+            {/* <Image src="/eternal.png" alt="Logo" width={30} height={80}></Image> */}
           </div>
           <div className="text-xs tracking-widest text-gray-500 font-semibold">
             SCROLL TO EXPLORE
           </div>
           <div className="text-2xl">
-            <Image src="/eternal.png" alt="Logo" width={30} height={80}></Image>
+            {/* <Image src="/eternal.png" alt="Logo" width={30} height={80}></Image> */}
           </div>
           <div className="text-2xl">
-            <Image src="/eternal.png" alt="Logo" width={30} height={80}></Image>
+            {/* <Image src="/eternal.png" alt="Logo" width={30} height={80}></Image> */}
           </div>
         </div>
       </section>
 
       {/* <section className="pb-50"></section> */}
       <section ref={sectionRef} className="min-h-screen w-full">
-
         <svg
           ref={svgRef}
           width={1000}
@@ -196,7 +193,6 @@ export default function ScenePage() {
           >
             Within Reach
           </h1>
-
         </div>
 
         {/* Showcase Section */}
@@ -380,26 +376,62 @@ export default function ScenePage() {
 /* ---------------- THREE SCENE ---------------- */
 
 function Scene(props) {
-  const [accent, click] = useReducer((state) => ++state % accents.length, 0);
+  // const [accent, click] = useReducer((state) => ++state % accents.length, 0);
   const COUNT = 15;
 
   const COLORS = [
-    "#2b2824",
-    "#9cb3a3",
-    "#0c3e49",
-    "#e5ddd2",
-    "#a1452c",
-    "#95a36d",
+    "#b7b1a6",
+    "#e8d59a",
+    "#e6d69b",
+    "#b4af9f",
+    "#6ceed9",
+    "#e6d69b",
   ];
+
+  // index changes on click
+  // const [accent, click] = useReducer(
+  //   (state) => Math.floor(Math.random() * COLORS.length),
+  //   0
+  // );
+  const [accent, click] = useReducer((state) => (state + 1) % COLORS.length, 0);
+
+  // const connectors = useMemo(() => {
+  //   const radius = 5;
+  //   return Array.from({ length: COUNT }, (_, i) => {
+  //     const angle = (i / COUNT) * Math.PI * 2;
+  //     return {
+  //       // color: "#444",
+  //       color: COLORS[i % COLORS.length],
+  //       // color: `hsl(${Math.random() * 360}, 80%, 60%)`,
+  //       roughness: 0.3,
+  //       position: [
+  //         Math.cos(angle) * radius,
+  //         Math.sin(angle) * radius * 0.6,
+  //         (Math.random() - 0.5) * 5,
+  //       ],
+  //     };
+  //   });
+  // }, [accent]);
 
   const connectors = useMemo(() => {
     const radius = 5;
+    const third = Math.ceil(COUNT / 3);
+
     return Array.from({ length: COUNT }, (_, i) => {
+      let color;
+
+      if (i < third) {
+        color = "#000000"; // first 33% black
+      } else if (i < third * 2) {
+        color = "#ffffff"; // second 33% white
+      } else {
+        color = COLORS[accent] || COLORS[0];
+      }
+
       const angle = (i / COUNT) * Math.PI * 2;
+
       return {
-        // color: "#444",
-        // color: COLORS[i % COLORS.length],
-        color: `hsl(${Math.random() * 360}, 80%, 60%)`,
+        color,
         roughness: 0.3,
         position: [
           Math.cos(angle) * radius,

@@ -874,17 +874,17 @@ function ScenePage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$app$2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 133,
+                lineNumber: 131,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$app$2f$components$2f$Header$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 135,
+                lineNumber: 133,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$app$2f$components$2f$Animations$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 137,
+                lineNumber: 135,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -895,12 +895,12 @@ function ScenePage() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                    lineNumber: 140,
+                    lineNumber: 138,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 139,
+                lineNumber: 137,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -911,37 +911,17 @@ function ScenePage() {
                     className: "max-w-7xl mx-auto px-6 flex items-center justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-2xl",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/eternal.png",
-                                alt: "Logo",
-                                width: 30,
-                                height: 80
-                            }, void 0, false, {
-                                fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                lineNumber: 146,
-                                columnNumber: 13
-                            }, this)
+                            className: "text-2xl"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 145,
+                            lineNumber: 143,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-2xl",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/eternal.png",
-                                alt: "Logo",
-                                width: 30,
-                                height: 80
-                            }, void 0, false, {
-                                fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                lineNumber: 149,
-                                columnNumber: 13
-                            }, this)
+                            className: "text-2xl"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 148,
+                            lineNumber: 146,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -949,52 +929,32 @@ function ScenePage() {
                             children: "SCROLL TO EXPLORE"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 151,
+                            lineNumber: 149,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-2xl",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/eternal.png",
-                                alt: "Logo",
-                                width: 30,
-                                height: 80
-                            }, void 0, false, {
-                                fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                lineNumber: 155,
-                                columnNumber: 13
-                            }, this)
+                            className: "text-2xl"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 154,
+                            lineNumber: 152,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-2xl",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/eternal.png",
-                                alt: "Logo",
-                                width: 30,
-                                height: 80
-                            }, void 0, false, {
-                                fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                lineNumber: 158,
-                                columnNumber: 13
-                            }, this)
+                            className: "text-2xl"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 157,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                    lineNumber: 144,
+                    lineNumber: 142,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 143,
+                lineNumber: 141,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1018,12 +978,12 @@ function ScenePage() {
                             strokeLinecap: "round"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 175,
+                            lineNumber: 172,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                        lineNumber: 166,
+                        lineNumber: 163,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1035,7 +995,7 @@ function ScenePage() {
                                 children: "Beyond Visions"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                lineNumber: 186,
+                                lineNumber: 183,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1044,13 +1004,13 @@ function ScenePage() {
                                 children: "Within Reach"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                lineNumber: 193,
+                                lineNumber: 190,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                        lineNumber: 185,
+                        lineNumber: 182,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1067,7 +1027,7 @@ function ScenePage() {
                                         "data-aos-delay": "300"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                        lineNumber: 207,
+                                        lineNumber: 203,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1083,7 +1043,7 @@ function ScenePage() {
                                                     children: "Started in 2014 Essence Tiles, We have emerged as a global leader in premium vitrified porcelain tiles. Headquartered in India, we leverage our state-of-the-art manufacturing capabilities across 8 facilities to produce a staggering 8 million square meters of exquisite tiles & an annual turnover of approximately $43 million annually."
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                    lineNumber: 221,
+                                                    lineNumber: 217,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1097,29 +1057,29 @@ function ScenePage() {
                                                                 className: "w-2 h-2 bg-white rounded-full opacity-90"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                                lineNumber: 235,
+                                                                lineNumber: 231,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                        lineNumber: 230,
+                                                        lineNumber: 226,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                    lineNumber: 229,
+                                                    lineNumber: 225,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 215,
+                                            lineNumber: 211,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                        lineNumber: 214,
+                                        lineNumber: 210,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1140,44 +1100,44 @@ function ScenePage() {
                                                     type: "video/mp4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                    lineNumber: 258,
+                                                    lineNumber: 254,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                lineNumber: 251,
+                                                lineNumber: 247,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 247,
+                                            lineNumber: 243,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                        lineNumber: 242,
+                                        lineNumber: 238,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                lineNumber: 205,
+                                lineNumber: 201,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 204,
+                            lineNumber: 200,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                        lineNumber: 203,
+                        lineNumber: 199,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 164,
+                lineNumber: 162,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1194,7 +1154,7 @@ function ScenePage() {
                                     children: "Featured Work"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 271,
+                                    lineNumber: 267,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1203,13 +1163,13 @@ function ScenePage() {
                                     children: "See all projects →"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 274,
+                                    lineNumber: 270,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 270,
+                            lineNumber: 266,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1225,7 +1185,7 @@ function ScenePage() {
                                             className: "w-full h-80 md:h-96 lg:h-[350px] object-cover rounded-t-2xl"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 291,
+                                            lineNumber: 287,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1238,39 +1198,39 @@ function ScenePage() {
                                                     children: project.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                    lineNumber: 298,
+                                                    lineNumber: 294,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                lineNumber: 297,
+                                                lineNumber: 293,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 296,
+                                            lineNumber: 292,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, idx, true, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 285,
+                                    lineNumber: 281,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 283,
+                            lineNumber: 279,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                    lineNumber: 268,
+                    lineNumber: 264,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 267,
+                lineNumber: 263,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1291,22 +1251,22 @@ function ScenePage() {
                             type: "video/mp4"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 321,
+                            lineNumber: 317,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                        lineNumber: 314,
+                        lineNumber: 310,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                    lineNumber: 310,
+                    lineNumber: 306,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 309,
+                lineNumber: 305,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -1322,23 +1282,23 @@ function ScenePage() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaInfinity"], {}, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 331,
+                                            lineNumber: 327,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaTwitter"], {}, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 332,
+                                            lineNumber: 328,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaDribbble"], {}, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 333,
+                                            lineNumber: 329,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 330,
+                                    lineNumber: 326,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1348,7 +1308,7 @@ function ScenePage() {
                                     height: 80
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 336,
+                                    lineNumber: 332,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1356,7 +1316,7 @@ function ScenePage() {
                                     children: "© 2025 Eternal Home. All rights reserved."
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 338,
+                                    lineNumber: 334,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1368,19 +1328,19 @@ function ScenePage() {
                                             children: "Feelmarks"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 343,
+                                            lineNumber: 339,
                                             columnNumber: 26
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 342,
+                                    lineNumber: 338,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 329,
+                            lineNumber: 325,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1390,7 +1350,7 @@ function ScenePage() {
                                     children: "Quick Links"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 348,
+                                    lineNumber: 344,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1402,12 +1362,12 @@ function ScenePage() {
                                                 children: "About us"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                lineNumber: 351,
+                                                lineNumber: 347,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 350,
+                                            lineNumber: 346,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1416,12 +1376,12 @@ function ScenePage() {
                                                 children: "Our Brands"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                lineNumber: 354,
+                                                lineNumber: 350,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 353,
+                                            lineNumber: 349,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1430,12 +1390,12 @@ function ScenePage() {
                                                 children: "Product Portfolio"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                lineNumber: 357,
+                                                lineNumber: 353,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 356,
+                                            lineNumber: 352,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1444,24 +1404,24 @@ function ScenePage() {
                                                 children: "Exhibitions"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                                lineNumber: 360,
+                                                lineNumber: 356,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 359,
+                                            lineNumber: 355,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 349,
+                                    lineNumber: 345,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 347,
+                            lineNumber: 343,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1471,7 +1431,7 @@ function ScenePage() {
                                     children: "Brands"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 366,
+                                    lineNumber: 362,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1481,57 +1441,57 @@ function ScenePage() {
                                             children: "Casalgrande Padana"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 368,
+                                            lineNumber: 364,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Novabell Cramiche"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 369,
+                                            lineNumber: 365,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Impronta Group"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 370,
+                                            lineNumber: 366,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: "Frag Dal 1921"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                            lineNumber: 371,
+                                            lineNumber: 367,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                    lineNumber: 367,
+                                    lineNumber: 363,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 365,
+                            lineNumber: 361,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                    lineNumber: 328,
+                    lineNumber: 324,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 327,
+                lineNumber: 323,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-        lineNumber: 132,
+        lineNumber: 130,
         columnNumber: 5
     }, this);
 }
@@ -1539,30 +1499,60 @@ _s(ScenePage, "JcRLHu52gTsYQSmJACXas0225Kc=");
 _c = ScenePage;
 /* ---------------- THREE SCENE ---------------- */ function Scene(props) {
     _s1();
-    const [accent, click] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useReducer"])({
-        "Scene.useReducer": (state)=>++state % accents.length
-    }["Scene.useReducer"], 0);
+    // const [accent, click] = useReducer((state) => ++state % accents.length, 0);
     const COUNT = 15;
     const COLORS = [
-        "#2b2824",
-        "#9cb3a3",
-        "#0c3e49",
-        "#e5ddd2",
-        "#a1452c",
-        "#95a36d"
+        "#b7b1a6",
+        "#e8d59a",
+        "#e6d69b",
+        "#b4af9f",
+        "#6ceed9",
+        "#e6d69b"
     ];
+    // index changes on click
+    // const [accent, click] = useReducer(
+    //   (state) => Math.floor(Math.random() * COLORS.length),
+    //   0
+    // );
+    const [accent, click] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useReducer"])({
+        "Scene.useReducer": (state)=>(state + 1) % COLORS.length
+    }["Scene.useReducer"], 0);
+    // const connectors = useMemo(() => {
+    //   const radius = 5;
+    //   return Array.from({ length: COUNT }, (_, i) => {
+    //     const angle = (i / COUNT) * Math.PI * 2;
+    //     return {
+    //       // color: "#444",
+    //       color: COLORS[i % COLORS.length],
+    //       // color: `hsl(${Math.random() * 360}, 80%, 60%)`,
+    //       roughness: 0.3,
+    //       position: [
+    //         Math.cos(angle) * radius,
+    //         Math.sin(angle) * radius * 0.6,
+    //         (Math.random() - 0.5) * 5,
+    //       ],
+    //     };
+    //   });
+    // }, [accent]);
     const connectors = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
         "Scene.useMemo[connectors]": ()=>{
             const radius = 5;
+            const third = Math.ceil(COUNT / 3);
             return Array.from({
                 length: COUNT
             }, {
                 "Scene.useMemo[connectors]": (_, i)=>{
+                    let color;
+                    if (i < third) {
+                        color = "#000000"; // first 33% black
+                    } else if (i < third * 2) {
+                        color = "#ffffff"; // second 33% white
+                    } else {
+                        color = COLORS[accent] || COLORS[0];
+                    }
                     const angle = i / COUNT * Math.PI * 2;
                     return {
-                        // color: "#444",
-                        // color: COLORS[i % COLORS.length],
-                        color: `hsl(${Math.random() * 360}, 80%, 60%)`,
+                        color,
                         roughness: 0.3,
                         position: [
                             Math.cos(angle) * radius,
@@ -1612,14 +1602,14 @@ _c = ScenePage;
                 ]
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 428,
+                lineNumber: 460,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ambientLight", {
                 intensity: 0.4
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 429,
+                lineNumber: 461,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("spotLight", {
@@ -1634,7 +1624,7 @@ _c = ScenePage;
                 castShadow: true
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 430,
+                lineNumber: 462,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$rapier$2f$dist$2f$react$2d$three$2d$rapier$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Physics"] /*debug*/ , {
@@ -1646,14 +1636,14 @@ _c = ScenePage;
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Pointer, {}, void 0, false, {
                         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                        lineNumber: 438,
+                        lineNumber: 470,
                         columnNumber: 9
                     }, this),
                     connectors.map((props, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Connector, {
                             ...props
                         }, i, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 440,
+                            lineNumber: 472,
                             columnNumber: 40
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Connector, {
@@ -1672,23 +1662,23 @@ _c = ScenePage;
                                 resolution: 512
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                                lineNumber: 444,
+                                lineNumber: 476,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 443,
+                            lineNumber: 475,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                        lineNumber: 442,
+                        lineNumber: 474,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 437,
+                lineNumber: 469,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$postprocessing$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EffectComposer"], {
@@ -1700,12 +1690,12 @@ _c = ScenePage;
                     intensity: 4
                 }, void 0, false, {
                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                    lineNumber: 457,
+                    lineNumber: 489,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 456,
+                lineNumber: 488,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$Environment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Environment"], {
@@ -1729,7 +1719,7 @@ _c = ScenePage;
                             scale: 2
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 461,
+                            lineNumber: 493,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$Lightformer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Lightformer"], {
@@ -1744,7 +1734,7 @@ _c = ScenePage;
                             scale: 2
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 468,
+                            lineNumber: 500,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$Lightformer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Lightformer"], {
@@ -1759,7 +1749,7 @@ _c = ScenePage;
                             scale: 2
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 475,
+                            lineNumber: 507,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$Lightformer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Lightformer"], {
@@ -1774,24 +1764,24 @@ _c = ScenePage;
                             scale: 8
                         }, void 0, false, {
                             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                            lineNumber: 482,
+                            lineNumber: 514,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                    lineNumber: 460,
+                    lineNumber: 492,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 459,
+                lineNumber: 491,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-        lineNumber: 414,
+        lineNumber: 446,
         columnNumber: 5
     }, this);
 }
@@ -1825,20 +1815,20 @@ function Connector({ position, children, vec = new __TURBOPACK__imported__module
                 ]
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 512,
+                lineNumber: 544,
                 columnNumber: 7
             }, this),
             children ? children : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Model, {
                 ...props
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 513,
+                lineNumber: 545,
                 columnNumber: 30
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-        lineNumber: 511,
+        lineNumber: 543,
         columnNumber: 5
     }, this);
 }
@@ -1866,12 +1856,12 @@ function Pointer({ vec = new __TURBOPACK__imported__module__$5b$project$5d2f$Des
             ]
         }, void 0, false, {
             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-            lineNumber: 533,
+            lineNumber: 565,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-        lineNumber: 532,
+        lineNumber: 564,
         columnNumber: 5
     }, this);
 }
@@ -1913,7 +1903,7 @@ function Model({ color = "white", roughness = 0.3, children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-        lineNumber: 554,
+        lineNumber: 586,
         columnNumber: 5
     }, this);
 }
