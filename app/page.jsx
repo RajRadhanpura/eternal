@@ -1,7 +1,6 @@
 "use client";
-
-import * as THREE from "three";
 import { useRef, useReducer, useMemo, useEffect } from "react";
+import * as THREE from "three";
 import { Canvas, useFrame } from "@react-three/fiber";
 import {
   useGLTF,
@@ -25,6 +24,7 @@ import Header from "./components/Header";
 import Image from "next/image";
 import Link from "next/link";
 import { FaInfinity, FaTwitter, FaDribbble } from "react-icons/fa";
+import Loader from "./components/Loader";
 
 import "aos/dist/aos.css";
 
@@ -37,21 +37,108 @@ const projects = [
   { title: "Frag Dal 1921", image: "./company1.jpg.webp" },
 ];
 
+
 export default function ScenePage() {
+  const heading1Ref = useRef(null)
+  const heading2Ref = useRef(null)
+  const sectionRef = useRef(null)
+  const svgRef = useRef(null)
+  const pathRef = useRef(null)
+
   useEffect(() => {
     const AOS = require("aos");
     AOS.init({ duration: 800 });
+
+    const svg = svgRef.current;
+    const path = pathRef.current;
+
+    if (!svg || !path) return;
+
+    const pathLength = path.getTotalLength();
+    let currentOffset = pathLength;
+
+    // Initial setup
+    path.style.strokeDasharray = `${pathLength}`;
+    path.style.strokeDashoffset = `${pathLength}`;
+
+    const scroll = () => {
+      const distance = window.scrollY;
+      const totalDistance = svg.clientHeight - window.innerHeight;
+
+      const percentage = Math.min(distance / totalDistance, 1);
+      const targetOffset = pathLength * (1 - percentage)
+
+      // 🔥 Smooth easing (lower = slower)
+      currentOffset += (targetOffset - currentOffset) * 0.06
+
+      // path.style.strokeDashoffset = `${pathLength * (1 - percentage)}`;
+      path.style.strokeDashoffset = `${currentOffset}`
+    };
+
+    scroll();
+    window.addEventListener("scroll", scroll);
+
+    return () => {
+      window.removeEventListener("scroll", scroll);
+    };
+    
   }, []);
+
+  useEffect(() => {
+  let current1 = 0
+  let current2 = 0
+  let target1 = 0
+  let target2 = 0
+
+  const animate = () => {
+    // Smooth inertia (lower = smoother / slower)
+    current1 += (target1 - current1) * 0.08
+    current2 += (target2 - current2) * 0.08
+
+    if (heading1Ref.current) {
+      heading1Ref.current.style.transform = `translateX(${current1}px)`
+    }
+
+    if (heading2Ref.current) {
+      heading2Ref.current.style.transform = `translateX(${current2}px)`
+    }
+
+    requestAnimationFrame(animate)
+  }
+
+  const handleScroll = () => {
+    if (!sectionRef.current) return
+
+    const rect = sectionRef.current.getBoundingClientRect()
+    const windowHeight = window.innerHeight
+
+    const progress = 1 - Math.min(Math.max(rect.top / windowHeight, 0), 1)
+
+    // Movement strength
+    target1 = progress * 350
+    target2 = progress * 150
+  }
+
+  window.addEventListener("scroll", handleScroll)
+  handleScroll()
+  animate()
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll)
+  }
+}, [])
 
   return (
     <div>
+      <Loader />
+
       <Header />
+      
       <Animations />
 
       <div className="_3d-container extra">
         <Scene style={{ borderRadius: 15 }} />
       </div>
-
 
       <section className="pt-5 pb-10" data-aos="fade-up" data-aos-delay="0">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
@@ -72,16 +159,44 @@ export default function ScenePage() {
           </div>
         </div>
       </section>
+
       {/* <section className="pb-50"></section> */}
-      <section className="min-h-screen w-full">
+      <section ref={sectionRef} className="min-h-screen w-full">
+
+        <svg
+          ref={svgRef}
+          width={1000}
+          height={2000}
+          viewBox="0 0 1000 2000"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="squiggle"
+        >
+          <path
+            ref={pathRef}
+            d="M-24.5 101C285 315 5.86278 448.291 144.223 631.238C239.404 757.091 559.515 782.846 608.808 617.456C658.101 452.067 497.627 367.073 406.298 426.797C314.968 486.521 263.347 612.858 322.909 865.537C384.086 1125.06 79.3992 1007.94 100 1261.99C144.222 1807.35 819 1325 513 1142.5C152.717 927.625 -45 1916.5 1191.5 1852"
+            stroke="#d3d3d3"
+            strokeWidth={30}
+            strokeLinejoin="round"
+            strokeLinecap="round"
+          />
+        </svg>
         {/* Hero Headline */}
         <div className="w-full mt-[10vh] leading-[1.2] text-black">
-          <h1 className="text-[8vw]" data-aos="fade-up" data-aos-delay="100">
+          <h1
+            ref={heading1Ref}
+            className="text-[8vw] will-change-transform transition-transform duration-75"
+          >
             Beyond Visions
           </h1>
-          <h1 className="text-[8vw]" data-aos="fade-up" data-aos-delay="200">
+
+          <h1
+            ref={heading2Ref}
+            className="text-[8vw] will-change-transform transition-transform duration-75"
+          >
             Within Reach
           </h1>
+
         </div>
 
         {/* Showcase Section */}
@@ -191,8 +306,7 @@ export default function ScenePage() {
         </div>
       </section>
 
-      <section className="p-10" data-aos="fade-up"
-                data-aos-delay="100">
+      <section className="p-10" data-aos="fade-up" data-aos-delay="100">
         <div
           id="showcaseImage"
           className="rounded-2xl -mt-[8vh] overflow-hidden shadow-lg"
@@ -233,10 +347,18 @@ export default function ScenePage() {
           <div>
             <h3 className="text-lg mb-6">Quick Links</h3>
             <ul className="space-y-3 text-gray-400">
-              <li><Link href="#">About us</Link></li>
-              <li><Link href="#">Our Brands</Link></li>
-              <li><Link href="#">Product Portfolio</Link></li>
-              <li><Link href="#">Exhibitions</Link></li>
+              <li>
+                <Link href="#">About us</Link>
+              </li>
+              <li>
+                <Link href="#">Our Brands</Link>
+              </li>
+              <li>
+                <Link href="#">Product Portfolio</Link>
+              </li>
+              <li>
+                <Link href="#">Exhibitions</Link>
+              </li>
             </ul>
           </div>
 
@@ -257,7 +379,7 @@ export default function ScenePage() {
 
 /* ---------------- THREE SCENE ---------------- */
 
-function Scene (props)  {
+function Scene(props) {
   const [accent, click] = useReducer((state) => ++state % accents.length, 0);
   const COUNT = 15;
 
@@ -370,13 +492,18 @@ function Scene (props)  {
   );
 }
 
-function Connector({ position, children, vec = new THREE.Vector3(), ...props }) {
+function Connector({
+  position,
+  children,
+  vec = new THREE.Vector3(),
+  ...props
+}) {
   const api = useRef(null);
   const pos = useMemo(() => position || [0, 0, 0], []);
 
   useFrame(() => {
     api.current?.applyImpulse(
-      vec.copy(api.current.translation()).negate().multiplyScalar(0.2)
+      vec.copy(api.current.translation()).negate().multiplyScalar(0.2),
     );
   });
 
@@ -396,8 +523,8 @@ function Pointer({ vec = new THREE.Vector3() }) {
       vec.set(
         (mouse.x * viewport.width) / 5,
         (mouse.y * viewport.height) / 5,
-        0
-      )
+        0,
+      ),
     );
   });
 
@@ -423,5 +550,9 @@ function Model({ color = "white", roughness = 0.3, children }) {
     });
   }, [color, roughness, clonedScene]);
 
-  return <primitive object={clonedScene} scale={0.3}>{children}</primitive>;
+  return (
+    <primitive object={clonedScene} scale={0.3}>
+      {children}
+    </primitive>
+  );
 }

@@ -1,7 +1,7 @@
 (globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
     script: typeof document === "object" ? document.currentScript : undefined,
     chunks: [
-  "static/chunks/9f801_@dimforge_rapier3d-compat_rapier_mjs_a3d3fc98._.js",
+  "static/chunks/9f801_@dimforge_rapier3d-compat_rapier_mjs_829f7d83._.js",
   "static/chunks/9f801_next_258080e9._.js",
   "static/chunks/9f801_three_build_three_core_f7a8bfb5.js",
   "static/chunks/9f801_three_build_three_module_b5818854.js",
@@ -17,7 +17,7 @@
   "static/chunks/9f801_react-icons_fa_index_mjs_9bee57a3._.js",
   "static/chunks/9f801_react-icons_lib_52b8ab8c._.js",
   "static/chunks/9f801_72af3500._.js",
-  "static/chunks/Desktop_eternaln_app_0790c047._.js",
+  "static/chunks/Desktop_eternaln_app_8b518d7e._.js",
   "static/chunks/9f801_aos_dist_aos_a97c35e0.css"
 ],
     source: "dynamic"
