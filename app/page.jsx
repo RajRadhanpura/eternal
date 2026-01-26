@@ -43,6 +43,7 @@ export default function ScenePage() {
   const sectionRef = useRef(null);
   const svgRef = useRef(null);
   const pathRef = useRef(null);
+  const videoRef = useRef(null);
 
   useEffect(() => {
     const AOS = require("aos");
@@ -302,7 +303,89 @@ export default function ScenePage() {
         </div>
       </section>
 
-      <section className="p-10" data-aos="fade-up" data-aos-delay="100">
+      {/* <section className="pb-50"></section> */}
+      <section  className="min-h-screen w-full">
+        {/* Hero Headline */}
+        <div className="w-full mt-[10vh] leading-[1.2] text-black">
+          <h1
+            className="text-[8vw] will-change-transform transition-transform duration-75"
+          >
+            Connecting ideals to
+          </h1>
+
+          <h1
+            className="text-[8vw] will-change-transform transition-transform duration-75"
+          >
+            Uniquely Crafted Experience
+          </h1>
+        </div>
+
+        {/* Showcase Section */}
+        <section id="showcase" className="pb-20">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              {/* Left Column Content */}
+              <div
+                className="lg:col-span-7"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              ></div>
+
+              {/* Right Column Text */}
+              <div className="lg:col-span-5 pl-10">
+                <div
+                  id="showcaseContent"
+                  className="space-y-6 max-w-xl lg:ml-auto mt-6"
+                  data-aos="fade-left"
+                  data-aos-delay="400"
+                >
+                  <p className="text-base text-[#111827]/90">
+                    Started in 2014 Essence Tiles, We have emerged as a global
+                    leader in premium vitrified porcelain tiles. Headquartered
+                    in India, we leverage our state-of-the-art manufacturing
+                    capabilities across 8 facilities to produce a staggering 8
+                    million square meters of exquisite tiles & an annual
+                    turnover of approximately $43 million annually.
+                  </p>
+                  <div className="flex items-center mt-2 gap-4">
+                    <button
+                      id="talkBtn"
+                      className="bg-[#1f2937] text-white rounded-full px-6 py-3 font-semibold shadow-md min-w-[190px] flex items-center justify-center gap-3"
+                    >
+                      ABOUT US
+                      <span className="w-2 h-2 bg-white rounded-full opacity-90" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Left Column Video */}
+              <div
+                className="lg:col-span-7"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div
+                  id="showcaseImage"
+                  className="rounded-2xl -mt-[8vh] overflow-hidden shadow-lg"
+                >
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-auto block object-cover"
+                  >
+                    <source src="/desktop.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      {/* <section className="p-10" data-aos="fade-up" data-aos-delay="100">
         <div
           id="showcaseImage"
           className="rounded-2xl -mt-[8vh] overflow-hidden shadow-lg"
@@ -317,7 +400,7 @@ export default function ScenePage() {
             <source src="/desktop.mp4" type="video/mp4" />
           </video>
         </div>
-      </section>
+      </section> */}
       {/* ---- everything else exactly same UI ---- */}
 
       <footer className="bg-black text-white">
