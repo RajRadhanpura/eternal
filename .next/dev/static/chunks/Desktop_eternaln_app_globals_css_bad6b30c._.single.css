@@ -454,14 +454,6 @@
     height: auto;
   }
 
-  .h-full {
-    height: 100%;
-  }
-
-  .h-screen {
-    height: 100vh;
-  }
-
   .min-h-screen {
     min-height: 100vh;
   }
@@ -476,10 +468,6 @@
 
   .w-full {
     width: 100%;
-  }
-
-  .w-screen {
-    width: 100vw;
   }
 
   .max-w-7xl {
@@ -1072,10 +1060,11 @@ a {
 }
 
 ._3d-container {
+  cursor: pointer;
   flex-direction: column;
   width: 100%;
   height: calc(100vh - 100px);
-  padding: 1rem 2rem;
+  padding: 5rem 5rem 3rem;
   display: flex;
   overflow: hidden;
 }

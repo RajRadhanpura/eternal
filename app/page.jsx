@@ -497,7 +497,7 @@ function Scene(props) {
   // }, [accent]);
 
   const connectors = useMemo(() => {
-    const radius = 5;
+    const radius = 8;
     const third = Math.ceil(COUNT / 3);
 
     return Array.from({ length: COUNT }, (_, i) => {
@@ -536,17 +536,17 @@ function Scene(props) {
         toneMapping: THREE.ACESFilmicToneMapping,
         toneMappingExposure: 1.5,
       }}
-      camera={{ position: [0, 0, 15], fov: 17.5, near: 1, far: 20 }}
+      camera={{ position: [0, 0, 15], fov: 15, near: 1, far: 20 }}
       style={{ width: "100%", height: "250px" }}
       {...props}
     >
-      <color attach="background" args={["#141622"]} />
-      <ambientLight intensity={0.4} />
+      <color attach="background" args={["#000000"]} />
+      <ambientLight intensity={0.8} />
       <spotLight
         position={[10, 10, 10]}
         angle={0.15}
         penumbra={1}
-        intensity={1}
+        intensity={20}
         castShadow
       />
       <Physics /*debug*/ gravity={[0, 0, 0]}>
@@ -575,28 +575,28 @@ function Scene(props) {
         <group rotation={[-Math.PI / 3, 0, 1]}>
           <Lightformer
             form="circle"
-            intensity={4}
+            intensity={4.6}
             rotation-x={Math.PI / 2}
             position={[0, 5, -9]}
             scale={2}
           />
           <Lightformer
             form="circle"
-            intensity={2}
+            intensity={4.6}
             rotation-y={Math.PI / 2}
             position={[-5, 1, -1]}
             scale={2}
           />
           <Lightformer
             form="circle"
-            intensity={2}
+            intensity={4.6}
             rotation-y={Math.PI / 2}
             position={[-5, -1, -1]}
             scale={2}
           />
           <Lightformer
             form="circle"
-            intensity={2}
+            intensity={4.6}
             rotation-y={-Math.PI / 2}
             position={[10, 1, 0]}
             scale={8}
@@ -623,7 +623,13 @@ function Connector({
   });
 
   return (
-    <RigidBody ref={api} position={pos} colliders={false}>
+    <RigidBody
+    ref={api} 
+    position={pos}
+    colliders={false}
+    linearDamping={4}
+    angularDamping={6}
+    >
       <CuboidCollider args={[0.38, 1.27, 0.38]} />
       {children ? children : <Model {...props} />}
     </RigidBody>

@@ -1656,7 +1656,7 @@ _c = ScenePage;
     // }, [accent]);
     const connectors = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
         "Scene.useMemo[connectors]": ()=>{
-            const radius = 5;
+            const radius = 8;
             const third = Math.ceil(COUNT / 3);
             return Array.from({
                 length: COUNT
@@ -1705,7 +1705,7 @@ _c = ScenePage;
                 0,
                 15
             ],
-            fov: 17.5,
+            fov: 15,
             near: 1,
             far: 20
         },
@@ -1718,7 +1718,7 @@ _c = ScenePage;
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("color", {
                 attach: "background",
                 args: [
-                    "#141622"
+                    "#000000"
                 ]
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
@@ -1726,7 +1726,7 @@ _c = ScenePage;
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ambientLight", {
-                intensity: 0.4
+                intensity: 0.8
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
                 lineNumber: 544,
@@ -1740,7 +1740,7 @@ _c = ScenePage;
                 ],
                 angle: 0.15,
                 penumbra: 1,
-                intensity: 1,
+                intensity: 20,
                 castShadow: true
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
@@ -1829,7 +1829,7 @@ _c = ScenePage;
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$Lightformer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Lightformer"], {
                             form: "circle",
-                            intensity: 4,
+                            intensity: 4.6,
                             "rotation-x": Math.PI / 2,
                             position: [
                                 0,
@@ -1844,7 +1844,7 @@ _c = ScenePage;
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$Lightformer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Lightformer"], {
                             form: "circle",
-                            intensity: 2,
+                            intensity: 4.6,
                             "rotation-y": Math.PI / 2,
                             position: [
                                 -5,
@@ -1859,7 +1859,7 @@ _c = ScenePage;
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$Lightformer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Lightformer"], {
                             form: "circle",
-                            intensity: 2,
+                            intensity: 4.6,
                             "rotation-y": Math.PI / 2,
                             position: [
                                 -5,
@@ -1874,7 +1874,7 @@ _c = ScenePage;
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$Lightformer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Lightformer"], {
                             form: "circle",
-                            intensity: 2,
+                            intensity: 4.6,
                             "rotation-y": -Math.PI / 2,
                             position: [
                                 10,
@@ -1926,6 +1926,8 @@ function Connector({ position, children, vec = new __TURBOPACK__imported__module
         ref: api,
         position: pos,
         colliders: false,
+        linearDamping: 4,
+        angularDamping: 6,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f40$react$2d$three$2f$rapier$2f$dist$2f$react$2d$three$2d$rapier$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["CuboidCollider"], {
                 args: [
@@ -1935,14 +1937,14 @@ function Connector({ position, children, vec = new __TURBOPACK__imported__module
                 ]
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 627,
+                lineNumber: 633,
                 columnNumber: 7
             }, this),
             children ? children : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$eternaln$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Model, {
                 ...props
             }, void 0, false, {
                 fileName: "[project]/Desktop/eternaln/app/page.jsx",
-                lineNumber: 628,
+                lineNumber: 634,
                 columnNumber: 30
             }, this)
         ]
@@ -1976,12 +1978,12 @@ function Pointer({ vec = new __TURBOPACK__imported__module__$5b$project$5d2f$Des
             ]
         }, void 0, false, {
             fileName: "[project]/Desktop/eternaln/app/page.jsx",
-            lineNumber: 648,
+            lineNumber: 654,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-        lineNumber: 647,
+        lineNumber: 653,
         columnNumber: 5
     }, this);
 }
@@ -2023,7 +2025,7 @@ function Model({ color = "white", roughness = 0.3, children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/Desktop/eternaln/app/page.jsx",
-        lineNumber: 669,
+        lineNumber: 675,
         columnNumber: 5
     }, this);
 }
